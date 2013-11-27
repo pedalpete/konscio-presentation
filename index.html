@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Unnamed Project, IoT Programming Library</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -37,172 +37,113 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>HTML Presentations Made Easy</h3>
-					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
-					</p>
+					<h1>Unnamed Project</h1>
+					<h3>A Programming Library for I<span style="text-transform: lowercase">o</span>T</h3>
 				</section>
 
 				<section>
-					<h2>Heads Up</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.
-					</p>
-
+					<h2>This Guy?</h2>
+					<img src="images/me.png" style="height: 300px" / >
 					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+						I'm Pete, I'm  a software developer. 
+						Mostly web stuff, played with Arduino and Raspberry Pi
 					</aside>
 				</section>
 
 				<!-- Example of nested vertical slides -->
 				<section>
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>
-							Slides can be nested inside of other slides,
-							try pressing <a href="#" class="navigate-down">down</a>.
-						</p>
-						<a href="#" class="image navigate-down">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Press down or up to navigate.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>Cornify</p>
-						<a class="test" href="http://cornify.com">
-							<img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 3</h2>
-						<p>That's it, time to go back up.</p>
-						<a href="#/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-						</a>
-					</section>
+					<h2>This Talk</h2>
+					<h3>A little bit technical</h3>
+					<h3>A little bit rock &amp; roll</h3>
+					<aside class="notes">
+						does this one work?
+					</aside>
 				</section>
 
 				<section>
-					<h2>Slides</h2>
-					<p>
-						Not a coder? No problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slid.es" target="_blank">http://slid.es</a>.
-					</p>
+					<h2>In the beginning</h2>
+					<img src="images/micro-quadcopter.jpg"/>
 				</section>
 
 				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-					</p>
+					<h2>Weird Ideas</h2>
+					<img src="images/dr-evil.jpg"/>
+					<h3>but, one thing at a time...</h3>
 				</section>
 
 				<section>
-					<h2>Works in Mobile Safari</h2>
+					<h2>First Lines of Code</h2>
+					<ul style="margin-bottom: 20px">
+						<li>gpio mode 0 out</li>
+						<li>gpio write 0 1</li>
+						<li>gpio write 0 0</li>
+					</ul>
+
 					<p>
-						Try it out! You can swipe through the slides and pinch your way to the overview.
-					</p>
+					I threw up in my mouth a little bit when I saw this code.</p>
 				</section>
 
 				<section>
-					<h2>Marvelous Unordered List</h2>
+					<h2>Programming the Obvious</h2>
+					<h3>Code should be...</h3>
 					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
+						<li>descriptive</li>
+						<li>portable</li>
+						<li>maintainable</li>
 					</ul>
 				</section>
 
 				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
+					<h2>Let's try this...</h2>
+					<ul>
+						<li>$('led').on();</li>
+						<li>$('led').off();</li>
+						<li>$('temperature').get();</li>
+						<li>$('temperature').live(3000);</li>
+					</ul>
 				</section>
 
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
-
-						For those of you who like that sort of thing. Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
-
-						```
-						<section data-markdown>
-						  ## Markdown support
-
-						  For those of you who like that sort of thing.
-						  Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
-
-				<section id="transitions">
-					<h2>Transition Styles</h2>
+				<section >
+					<h2>What makes this possible</h2>
 					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=cube#/transitions">Cube</a> -
-						<a href="?transition=page#/transitions">Page</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a> -
-						<a href="?transition=linear#/transitions">Linear</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?#/transitions">Default</a>
+					{"name":"<i>descriptive_name</i>", "abilities":[<br/>
+					{"type":"led","pin":16, "interface":"gpio","color":"red"},<br/>
+					{"type":"led","pin":15,"interface":"gpio","color":"green"},<br/>
+					{"type":"led","pin":18,"interface":"gpio","color":"blue"},<br/>
+					{"type":"temperature","pin":"28-000004acb882", "interface":"w1"}]}
 					</p>
 				</section>
 
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						Reveal.js comes with a few themes built in: <br>
-						<a href="?#/themes">Default</a> -
-						<a href="?theme=sky#/themes">Sky</a> -
-						<a href="?theme=beige#/themes">Beige</a> -
-						<a href="?theme=simple#/themes">Simple</a> -
-						<a href="?theme=serif#/themes">Serif</a> -
-						<a href="?theme=night#/themes">Night</a> <br>
-						<a href="?theme=moon.css#/themes">Moon</a> -
-						<a href="?theme=simple.css#/themes">Simple</a> -
-						<a href="?theme=solarized.css#/themes">Solarized</a>
-					</p>
-					<p>
-						<small>
-							* Theme demos are loaded after the presentation which leads to flicker. In production you should load your theme in the <code>&lt;head&gt;</code> using a <code>&lt;link&gt;</code>.
-						</small>
-					</p>
+				<section >
+					<h2>Things we don't need to know</h2>
+					<ul>
+						<li>
+							pin numbers
+						</li>
+						<li>
+							interface type
+						</li>
+					</ul>
 				</section>
 
 				<section>
-					<h2>Global State</h2>
-					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the background.
-					</p>
+					<h2>Really? Javascript?</h2>
+					<img src="images/node.jpg" />
 				</section>
 
-				<section data-state="customevent">
-					<h2>Custom Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
+				<section>
+					<h2>Every Device is a server</h2>
+					<ul>
+						<li>does the 'I' really mean Internet</li>
+						<li>device-to-device communication</li>
+						<li>do me a favour</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Real World Example</h2>
+					<img src="images/smokey.jpg" />
+					<p>or...what the hell is this guy on about?</p>
 				</section>
 
 				<section>
